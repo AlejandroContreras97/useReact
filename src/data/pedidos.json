@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "cliente": "Juan Pérez",
+      "producto": "Producto A",
+      "cantidad": 3,
+      "estado": "Pendiente"
+    },
+    {
+      "id": 2,
+      "cliente": "María López",
+      "producto": "Producto B",
+      "cantidad": 1,
+      "estado": "Completado"
+    },
+    {
+      "id": 3,
+      "cliente": "Carlos Gómez",
+      "producto": "Producto C",
+      "cantidad": 2,
+      "estado": "Pendiente"
+    }
+  ]
+  
