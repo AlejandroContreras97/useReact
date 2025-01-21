@@ -1,73 +1,212 @@
 [
-    {
-      "id": 1,
-      "nombre": "Producto A",
-      "categoria": "Categoría 1",
-      "fabricante": "Fabricante X",
-      "precio": 100
-    },
-    {
-      "id": 2,
-      "nombre": "Producto B",
-      "categoria": "Categoría 2",
-      "fabricante": "Fabricante Y",
-      "precio": 200
-    },
-    {
-      "id": 3,
-      "nombre": "Producto C",
-      "categoria": "Categoría 1",
-      "fabricante": "Fabricante X",
-      "precio": 100
-    },
-    {
-      "id": 4,
-      "nombre": "Producto D",
-      "categoria": "Categoría 2",
-      "fabricante": "Fabricante Y",
-      "precio": 200
-    },
-    {
-      "id": 5,
-      "nombre": "Producto E",
-      "categoria": "Categoría 1",
-      "fabricante": "Fabricante X",
-      "precio": 100
-    },
-    {
-      "id": 6,
-      "nombre": "Producto F",
-      "categoria": "Categoría 2",
-      "fabricante": "Fabricante Y",
-      "precio": 200
-    },
-    {
-      "id": 7,
-      "nombre": "Producto G",
-      "categoria": "Categoría 1",
-      "fabricante": "Fabricante X",
-      "precio": 100
-    },
-    {
-      "id": 8,
-      "nombre": "Producto H",
-      "categoria": "Categoría 2",
-      "fabricante": "Fabricante Y",
-      "precio": 200
-    },
-    {
-      "id": 9,
-      "nombre": "Producto I",
-      "categoria": "Categoría 1",
-      "fabricante": "Fabricante X",
-      "precio": 100
-    },
-    {
-      "id": 10,
-      "nombre": "Producto J",
-      "categoria": "Categoría 2",
-      "fabricante": "Fabricante Y",
-      "precio": 200
-    }
-  ]
-  
+  {
+    "id": 1,
+    "nombre": "Mouse Precision",
+    "categoria": "Ratones",
+    "fabricante": "Lenovo",
+    "precio": 730
+  },
+  {
+    "id": 2,
+    "nombre": "Keyboard Elite",
+    "categoria": "Ratones",
+    "fabricante": "Asus",
+    "precio": 1111
+  },
+  {
+    "id": 3,
+    "nombre": "Laptop Inspiron",
+    "categoria": "Monitores",
+    "fabricante": "Acer",
+    "precio": 799
+  },
+  {
+    "id": 4,
+    "nombre": "Laptop Inspiron",
+    "categoria": "Monitores",
+    "fabricante": "Dell",
+    "precio": 245
+  },
+  {
+    "id": 5,
+    "nombre": "Keyboard Elite",
+    "categoria": "Laptops",
+    "fabricante": "Asus",
+    "precio": 1473
+  },
+  {
+    "id": 6,
+    "nombre": "Monitor UltraSharp",
+    "categoria": "Laptops",
+    "fabricante": "HP",
+    "precio": 823
+  },
+  {
+    "id": 7,
+    "nombre": "Workstation ZBook",
+    "categoria": "Laptops",
+    "fabricante": "Asus",
+    "precio": 463
+  },
+  {
+    "id": 8,
+    "nombre": "Workstation ZBook",
+    "categoria": "Teclados",
+    "fabricante": "Dell",
+    "precio": 1339
+  },
+  {
+    "id": 9,
+    "nombre": "Keyboard Elite",
+    "categoria": "Estaciones de trabajo",
+    "fabricante": "Logitech",
+    "precio": 1418
+  },
+  {
+    "id": 10,
+    "nombre": "Monitor UltraSharp",
+    "categoria": "Ratones",
+    "fabricante": "HP",
+    "precio": 761
+  },
+  {
+    "id": 11,
+    "nombre": "Mouse Precision",
+    "categoria": "Teclados",
+    "fabricante": "HP",
+    "precio": 1984
+  },
+  {
+    "id": 12,
+    "nombre": "Workstation ZBook",
+    "categoria": "Laptops",
+    "fabricante": "Acer",
+    "precio": 1531
+  },
+  {
+    "id": 13,
+    "nombre": "Workstation ZBook",
+    "categoria": "Estaciones de trabajo",
+    "fabricante": "Acer",
+    "precio": 1633
+  },
+  {
+    "id": 14,
+    "nombre": "Laptop Inspiron",
+    "categoria": "Ratones",
+    "fabricante": "HP",
+    "precio": 473
+  },
+  {
+    "id": 15,
+    "nombre": "Mouse Precision",
+    "categoria": "Teclados",
+    "fabricante": "Dell",
+    "precio": 295
+  },
+  {
+    "id": 16,
+    "nombre": "Monitor UltraSharp",
+    "categoria": "Teclados",
+    "fabricante": "Asus",
+    "precio": 1993
+  },
+  {
+    "id": 17,
+    "nombre": "Keyboard Elite",
+    "categoria": "Estaciones de trabajo",
+    "fabricante": "HP",
+    "precio": 695
+  },
+  {
+    "id": 18,
+    "nombre": "Workstation ZBook",
+    "categoria": "Teclados",
+    "fabricante": "Acer",
+    "precio": 566
+  },
+  {
+    "id": 19,
+    "nombre": "Laptop Inspiron",
+    "categoria": "Teclados",
+    "fabricante": "Asus",
+    "precio": 984
+  },
+  {
+    "id": 20,
+    "nombre": "Workstation ZBook",
+    "categoria": "Monitores",
+    "fabricante": "Lenovo",
+    "precio": 1336
+  },
+  {
+    "id": 21,
+    "nombre": "Mouse Precision",
+    "categoria": "Estaciones de trabajo",
+    "fabricante": "Logitech",
+    "precio": 259
+  },
+  {
+    "id": 22,
+    "nombre": "Mouse Precision",
+    "categoria": "Ratones",
+    "fabricante": "Logitech",
+    "precio": 1784
+  },
+  {
+    "id": 23,
+    "nombre": "Mouse Precision",
+    "categoria": "Ratones",
+    "fabricante": "Acer",
+    "precio": 106
+  },
+  {
+    "id": 24,
+    "nombre": "Monitor UltraSharp",
+    "categoria": "Monitores",
+    "fabricante": "Logitech",
+    "precio": 1857
+  },
+  {
+    "id": 25,
+    "nombre": "Mouse Precision",
+    "categoria": "Monitores",
+    "fabricante": "Dell",
+    "precio": 475
+  },
+  {
+    "id": 26,
+    "nombre": "Keyboard Elite",
+    "categoria": "Estaciones de trabajo",
+    "fabricante": "Asus",
+    "precio": 1766
+  },
+  {
+    "id": 27,
+    "nombre": "Keyboard Elite",
+    "categoria": "Teclados",
+    "fabricante": "Lenovo",
+    "precio": 499
+  },
+  {
+    "id": 28,
+    "nombre": "Laptop Inspiron",
+    "categoria": "Ratones",
+    "fabricante": "Acer",
+    "precio": 311
+  },
+  {
+    "id": 29,
+    "nombre": "Mouse Precision",
+    "categoria": "Monitores",
+    "fabricante": "Asus",
+    "precio": 1258
+  },
+  {
+    "id": 30,
+    "nombre": "Workstation ZBook",
+    "categoria": "Estaciones de trabajo",
+    "fabricante": "Logitech",
+    "precio": 884
+  }
+]

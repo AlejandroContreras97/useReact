@@ -1,0 +1,178 @@
+/* Bloque principal */
+.proveedores {
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1200px; /* Ajustar al tamaño del grid */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título del formulario */
+  .proveedores__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Campo de entrada de texto */
+  .proveedores__input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .proveedores__input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Lista de productos con exactamente 4 columnas */
+  .proveedores__products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Siempre 4 columnas */
+    gap: 1rem; /* Espacio entre los elementos */
+    padding: 0;
+    list-style: none;
+    margin-top: 1rem;
+  }
+  
+  .proveedores__product-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .proveedores__product-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Botón para enviar el pedido */
+  .proveedores__submit-button {
+    background-color: #28a745; /* Verde para indicar acción positiva */
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: block;
+    margin: 2rem auto; /* Centrado horizontal */
+  }
+  
+  .proveedores__submit-button:hover {
+    background-color: #218838; /* Verde más oscuro al pasar el mouse */
+    transform: scale(1.02); /* Ligero efecto de agrandamiento */
+  }
+  
+  .proveedores__submit-button:active {
+    background-color: #1e7e34; /* Verde más intenso al hacer clic */
+    transform: scale(0.98); /* Efecto de compresión */
+  }
+  
+  /* Contenedor para los botones de cantidad y eliminar */
+  .proveedores__actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* Fila de los botones de cantidad (+ y -) */
+  .proveedores__quantity-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  /* Botones para ajustar la cantidad (+ y -) */
+  .proveedores__button--quantity {
+    background-color: transparent; /* Fondo transparente */
+    color: #007bff; /* Azul del texto */
+    padding: 0.5rem;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .proveedores__button--quantity:hover {
+    background-color: #e6f2ff; /* Fondo azul claro en hover */
+    transform: scale(1.1); /* Ligero aumento */
+  }
+  
+  .proveedores__button--quantity:active {
+    background-color: #cce5ff; /* Fondo más oscuro al hacer clic */
+    transform: scale(0.95); /* Compresión al hacer clic */
+  }
+  
+  /* Botón para agregar productos */
+  .proveedores__button {
+    background-color: transparent; /* Fondo transparente */
+    border: none;
+    cursor: pointer;
+    padding: 0; /* Sin espacio extra */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .proveedores__button img {
+    width: 20px; /* Ajusta el tamaño del ícono */
+    height: 20px;
+  }
+  
+  .proveedores__button:hover {
+    transform: scale(1.1); /* Ligero aumento */
+  }
+  
+  /* Botón para eliminar productos */
+  .proveedores__remove-button {
+    background-color: transparent; /* Fondo transparente */
+    border: none;
+    cursor: pointer;
+    padding: 0; /* Sin espacio extra */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .proveedores__remove-button img {
+    width: 20px; /* Ajusta el tamaño del ícono */
+    height: 20px;
+  }
+  
+  .proveedores__remove-button:hover {
+    background-color: #ffe6e6; /* Fondo rojo claro en hover */
+    transform: scale(1.1); /* Ligero aumento */
+  }
+  
+  .proveedores__remove-button:active {
+    background-color: #ffcccc; /* Fondo más oscuro al hacer clic */
+    transform: scale(0.95); /* Compresión al hacer clic */
+  }
+  

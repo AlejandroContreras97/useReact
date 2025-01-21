@@ -7,6 +7,8 @@ import Dashboard from "./components/Dashboard";
 import ProductList from "./components/ProductsList"; // Importa el componente ProductList
 import OrderForm from "./components/OrderForm";
 import ShippingList from "./components/ShippingList";
+import Proveedores from "./components/Proveedores";
+import EnviosProveedores from "./components/EnviosProveedores";
 
 
 const AppContent = ({ isAuthenticated, setIsAuthenticated }) => {
@@ -44,6 +46,22 @@ const AppContent = ({ isAuthenticated, setIsAuthenticated }) => {
           element={
             <ProtectedRoute isAuthenticated={isAuthenticated}>
               <ShippingList />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/proveedores"
+          element={
+            <ProtectedRoute isAuthenticated={isAuthenticated}>
+              <Proveedores />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/envios-proveedores"
+          element={
+            <ProtectedRoute isAuthenticated={isAuthenticated}>
+              <EnviosProveedores />
             </ProtectedRoute>
           }
         />

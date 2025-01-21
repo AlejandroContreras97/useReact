@@ -47,10 +47,10 @@ const ProductList = () => {
           <li
             key={producto.id}
             className={`product-list__item ${
-              producto.precio > 150 ? "product-list__item--highlight" : ""
+              producto.precio > 1500 ? "product-list__item--highlight" : ""
             }`}
           >
-            {producto.nombre} - {producto.categoria} - ${producto.precio}
+            {producto.nombre} - {producto.categoria} - {producto.fabricante} - ${producto.precio}
           </li>
         ))}
       </ul>

@@ -23,8 +23,14 @@ const Navbar = ({ setIsAuthenticated }) => {
         <li className={`navbar__item ${location.pathname === "/pedidos" ? "navbar__item--active" : ""}`}>
           <Link to="/pedidos" className="navbar__link">Pedidos</Link>
         </li>
+        <li className={`navbar__item ${location.pathname === "/proveedores" ? "navbar__item--active" : ""}`}>
+          <Link to="/proveedores" className="navbar__link">Proveedores</Link>
+        </li>
         <li className={`navbar__item ${location.pathname === "/envios" ? "navbar__item--active" : ""}`}>
-          <Link to="/envios" className="navbar__link">Envíos</Link>
+          <Link to="/envios" className="navbar__link">Envíos Usuarios</Link>
+        </li>
+        <li className={`navbar__item ${location.pathname === "/envios-proveedores" ? "navbar__item--active" : ""}`}>
+          <Link to="/envios-proveedores" className="navbar__link">Envíos Proveedores</Link>
         </li>
         <li className="navbar__item">
           <button onClick={handleLogout} className="navbar__link navbar__button">Cerrar sesión</button>

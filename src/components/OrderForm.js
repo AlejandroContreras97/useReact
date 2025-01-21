@@ -75,7 +75,7 @@ const OrderForm = () => {
 
   return (
     <div className="order-form">
-      <h2 className="order-form__title">Crear Pedido</h2>
+      <h2 className="order-form__title">Pedidos de Usuarios</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label className="order-form__label" htmlFor="cliente">Cliente:</label>
@@ -116,8 +116,7 @@ const OrderForm = () => {
             {pedido.map((producto) => (
               <li
                 key={producto.id}
-                className="order-form__product-item order-form__product-item--highlight"
-              >
+                className="order-form__product-item order-form__product-item--highlight">
                 {producto.nombre} - ${producto.precio} x {producto.cantidad}
                 <div className="order-form__actions">
                   <div className="order-form__quantity-buttons">
